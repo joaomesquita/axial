@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"/>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ps-3 pe-3">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.php">
                 <img src="img/logo.svg" alt="" class="img-fluid" widht="180">
@@ -39,7 +39,7 @@
                         <a class="nav-link" href="contato.php">Contato</a>
                     </li>
                 </ul>
-                <a href="#" class="btn btn-secondary"><i class="fab fa-whatsapp"></i>Fale Conosco</a>
+                <a href="#" class="btn btn-secondary font-uppercase"><i class="fab fa-whatsapp"></i>Fale Conosco</a>
             </div>
         </div>
     </nav>

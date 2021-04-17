@@ -1,10 +1,49 @@
 <?php include 'header.php'; ?>
 
-<div class="container-fluid">
-    <div class="jumbtron">
-        <h1 class="font-primary font-bold color-light w-50">Essencial é investir a vida toda!</h1>
-        <p class="font-paragraph color-light w-25">Somos uma empresa de soluções financeiras completas. Se você tem um objetivo, nós temos um plano e te ajudamos a chegar lá! </p>
+<div id="carouselExampleFade" class="carousel slide carousel-fade ps-3 pe-3" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="container-fluid">
+                <div class="card card-carousel">
+                    <img src="img/home1.png" class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                        <h1 class="font-primary font-bold color-light w-50">Essencial é investir a vida toda!</h1>
+                        <p class="font-paragraph color-light w-50">Somos uma empresa de soluções financeiras completas. Se você tem um objetivo, nós temos um plano e te ajudamos a chegar lá! </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="container-fluid">
+                <div class="card card-carousel">
+                    <img src="img/home1.png" class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                        <h1 class="font-primary font-bold color-light w-50">Essencial é investir a vida toda!</h1>
+                        <p class="font-paragraph color-light w-50">Somos uma empresa de soluções financeiras completas. Se você tem um objetivo, nós temos um plano e te ajudamos a chegar lá! </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="container-fluid">
+                <div class="card card-carousel">
+                    <img src="img/home1.png" class="card-img img-fluid" alt="...">
+                    <div class="card-img-overlay">
+                        <h1 class="font-primary font-bold color-light w-50">Essencial é investir a vida toda!</h1>
+                        <p class="font-paragraph color-light w-50">Somos uma empresa de soluções financeiras completas. Se você tem um objetivo, nós temos um plano e te ajudamos a chegar lá! </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <button class="carousel-control-prev m-2" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next m-2" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
 </div>
 
 <div class="session">
@@ -19,7 +58,7 @@
 
         <div class="row align-items-center gx-5 mt-5">
             <div class="col-md-5">
-                <img src="img/voce.png" alt="" class="img-fluid">
+                <img src="img/voce.png" alt="" class="img-fluid mb-4">
             </div>
             <div class="col-md-7">
                 <h4 class="font-secondary color-black">Essencial para <span class="font-bold">Você</span></h4>
@@ -28,31 +67,31 @@
             </div>
         </div>
 
-        <div class="row align-items-center gx-5 mt-5">
+        <div class="row align-items-center flex-row-reverse gx-5 mt-5">
+            <div class="col-md-5">
+                <img src="img/negocio.png" alt="" class="img-fluid mb-4">
+            </div>
             <div class="col-md-7">
                 <h4 class="font-secondary color-black">Essencial para seu <span class="font-bold">Negócio</span></h4>
                 <p class="font-paragraph color-black mt-4">Nós queremos ver a sua empresa prosperar! Por isso, nossos agentes estão prontos para guiar os seus investimentos, mirando sempre na melhor performance possível para os seus negócios.</p>
                 <a href="solucoes.php" class="btn btn-primary">Turbine o seu negócio</a>
             </div>
-            <div class="col-md-5">
-                <img src="img/negocio.png" alt="" class="img-fluid">
-            </div>
         </div>
 
         <div class="row align-items-center gx-5 mt-5">
             <div class="col-md-5">
-                <img src="img/agronegocio.png" alt="" class="img-fluid">
+                <img src="img/agronegocio.png" alt="" class="img-fluid mb-4">
             </div>
             <div class="col-md-7">
                 <h4 class="font-secondary color-black">Essencial para o <span class="font-bold">Agronegócio</span></h4>
                 <p class="font-paragraph color-black mt-4">O Agronegócio é a força que move o desenvolvimento econômico no nosso país, por isso, temos soluções especiais para o segmento, maximizando o lucro de maneira prática e segura.</p>
-                <a href="solucoes.php" class="btn btn-primary">Confira nossas soluções</a>
+                <a href="solucoes.php" class="btn btn-primary font-semibold">Confira nossas soluções</a>
             </div>
         </div>
     </div>
 </div>
 
-<div class="session p-0 bg-primary">
+<div class="session-img bg-primary">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-7">
@@ -61,7 +100,7 @@
                 <p class="font-paragraph color-light mt-4">Isso significa que o cliente Axial Investimentos tem as opções mais rentáveis e seguras do mercado e a certeza de estar fazendo bons negócios</p>
             </div>
             <div class="col-md-5">
-                <img src="img/modalmais.png" alt="" class="img-fluid">
+                <img src="img/modalmais.png" alt="" class="img-fluid d-none d-md-block d-lg-block">
             </div>
         </div>
     </div>
@@ -79,7 +118,7 @@
 
         <div class="row align-items-center gx-5 mt-5">
             <div class="col-md-5">
-                <img src="img/homem1.png" alt="" class="img-fluid">
+                <img src="img/homem1.png" alt="" class="img-fluid mb-4">
             </div>
             <div class="col-md-7">
                 <h2 class="font-secondary font-bold color-black">Gabriel Jacintho</h2>
@@ -87,13 +126,13 @@
             </div>
         </div>
 
-        <div class="row align-items-center gx-5 mt-5">
+        <div class="row align-items-center flex-row-reverse gx-5 mt-5">
+            <div class="col-md-5">
+                <img src="img/homem2.png" alt="" class="img-fluid mb-4">
+            </div>
             <div class="col-md-7">
                 <h2 class="font-secondary font-bold color-black">Jóse Oliveira</h2>
                 <p class="font-paragraph color-black mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse commodo mi in leo imperdiet vestibulum. Duis non neque venenatis nulla malesuada rhoncus non at turpis. Nullam convallis ex metus, vitae sodales ligula posuere in. Phasellus blandit facilisis tortor, euismod sollicitudin enim pellentesque ut. Vestibulum vel lobortis est. Donec tincidunt</p>
-            </div>
-            <div class="col-md-5">
-                <img src="img/homem2.png" alt="" class="img-fluid">
             </div>
         </div>
     </div>
